@@ -32,49 +32,49 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 const readMore = more.repeat(4001)
 
 /*============= MAIN INFO =============*/
-global.owner = [['6285174269046', 'ShirokamiRyzen', true]]
+global.owner = [['6282277117130', 'xyzarco', true]]
 global.mods = []
 global.prems = []
-global.nomorbot = '6285864034767'
-global.nomorown = '6285174269046'
+global.nomorbot = '628'
+global.nomorown = '628'
 global.nomorwa = '0'
 
 
 /*============= WATERMARK =============*/
 global.readMore = readMore
-global.author = 'ShirokamiRyzen'
-global.namebot = 'Nao-Botz V5'
-global.wm = '© NaoBotz By ShirokamiRyzen'
+global.author = 'xyzarco'
+global.namebot = 'Zarco bot'
+global.wm = 'zarco bot'
 global.watermark = wm
-global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
-global.bottime = `T I M E : ${wktuwib}`
-global.stickpack = `Sticker Dibuat dengan ${namebot}\ngithub.com/ShirokamiRyzen\n\nNao-Bot\n+6285864034767`
-global.stickauth = `© NaoBotz By ShirokamiRyzen`
+global.botdate = `⫹⫺ Tgl: ${week} ${date}\n⫹⫺ Jam: ${wktuwib}`
+global.bottime = `Waktu : ${wktuwib}`
+global.stickpack = `Sticker by zarco bot`
+global.stickauth = `© 2023`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 
 /*============= OWNER INFO =============*/
-global.nameown1= 'Ryzn'
-global.nameown2 = 'Ryzn'
+global.nameown1= 'Steven J.'
+global.nameown2 = 'Steven J.'
 /*============= MEDIA LINK =============*/
-global.Linkgc = 'Bentar'
+global.Linkgc = 'bentar yh'
 global.lynk = ''
 
 
 //*============= SOSMED =============*/
-global.sig = 'https://www.instagram.com/ryzen_vermillion'
-global.sgh = 'https://github.com/ShirokamiRyzen' //github
+global.sig = 'https://www.instagram.com/stevenjoe24'
+global.sgh = 'https://github.com/joenior' //github
 global.sgc = '-' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://www.instagram.com/ryzen_vermillion'
+global.snh = 'https://www.instagram.com/stevenjoe24'
 
 /*============= DONASI =============*/
-global.pdana = '085174269046'
+global.pdana = '089621775964'
 global.povo = '-'
-global.pgopay = '085174269046'
+global.pgopay = '089621775964'
 global.plinkaja = '-' //link aja
-global.ppulsa = '085174269046'
-global.ppulsa2 = '085174269046'
+global.ppulsa = '089621775964'
+global.ppulsa2 = '089621775964'
 global.psaweria = '-'
 
 
@@ -90,7 +90,7 @@ global.dmenut = 'ଓ═┅═━–〈' //top
 global.dmenub = '┊↬' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
-global.dashmenu = '┅═┅═❏ *DASHBOARD* ❏═┅═┅'
+global.dashmenu = '┅═┅═❏ *Dasbor* ❏═┅═┅'
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
 global.cmenub = '┊✦ ' //body
@@ -105,8 +105,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============= RESPON =============*/
-global.stiker_wait = 'Please Wait...'
-global.wait = 'Please Wait...'
+global.stiker_wait = 'tunggu yh...'
+global.wait = 'bntr cuy..'
 global.eror = 'Error!'
 
 /*============= RESPON GAME =============*/
