@@ -190,8 +190,8 @@ global.rpg = {
 
 
 /*============= WEB API KEY =============*/
-global.openai = 'YOUR_APIKEY_HERE'  //api key bisa didapatkan dari https://openai.com/api/
-global.org = 'YOUR_APIKEY_HERE'  //openAI Organization name
+global.openai = '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'  //api key bisa didapatkan dari https://openai.com/api/
+global.org = 'Personal'  //openAI Organization name
 global.lolkey = 'SGWN' //buy API at https://api.lolhuman.xyz
 global.lankey = 'YOUR_APIKEY_HERE' //buy API at https://api.lannn.me/
 global.botcahx = 'YOUR_APIKEY_HERE' //https://api.botcahx.live/
