@@ -4,25 +4,25 @@ import Jimp from "jimp"
 let handler = async (m, { conn, usedPrefix, command }) => {
   conn.hdr = conn.hdr ? conn.hdr : {}
   if (m.sender in conn.hdr)
-    throw "Masih Ada Proses Yang Belum Selesai Kak, Silahkan Tunggu Sampai Selesai Yah >//<"
+    throw "bentarr masih ada foto yang mau aku HD-in, coba bales fotonya lagi dengan text .hd"
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || q.mediaType || ""
   if (!mime)
-    throw `Fotonya Mana Kak?`
+    throw `lha mana fotonya?`
   if (!/image\/(jpe?g|png)/.test(mime))
     throw `Mime ${mime} tidak support`
   else conn.hdr[m.sender] = true;
-  m.reply("Proses Kak...")
+  m.reply("fotonya aku proses dlu yahh")
   let img = await q.download?.()
   let error
   try {
     const This = await processing(img, "enhance")
-    conn.sendFile(m.chat, This, "", "Sudah Jadi Kak >//<", m)
+    conn.sendFile(m.chat, This, "", "udah HD belum?", m)
   } catch (er) {
     error = true
   } finally {
     if (error) {
-      m.reply("Proses Gagal :(")
+      m.reply("yahh gagal, coba ulangi lagi nanti :(")
     }
     delete conn.hdr[m.sender]
   }
