@@ -19,9 +19,7 @@ const defaultMenu = {
 ❏︎ *Total Xp:* %totalexp
 
 *${ucapan()} %name!*
-❏ *Tanggal:* %week %weton
-❏︎ *Date:* %date
-❏︎ *Tanggal Islam:* %dateIslamic
+❏︎ *Tanggal:* %week %date
 ❏︎ *Waktu:* %time
 
 ❏︎ *Platform:* %platform
@@ -49,7 +47,7 @@ let tags = {
 'fun': 'Fun',
 //'rpg': 'RPG Games',
 'quotes': 'Quotes',
-'maker': 'Maker Text Logo',
+//'maker': 'Maker Text Logo',
 'nulis': 'Nulis',
 'info': 'Info',
 'owner': 'Owner',
@@ -250,16 +248,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Kok Belum Tidur Kak? 🥱"
   if (time >= 4) {
-    res = "Pagi Kak 🌄"
+    res = "Pagi 🌄"
   }
   if (time >= 10) {
-    res = "Siang Kak ☀️"
+    res = "Siang ☀️"
   }
   if (time >= 15) {
-    res = "Sore Kak 🌇"
+    res = "Sore 🌇"
   }
   if (time >= 18) {
-    res = "Malam Kak 🌙"
+    res = "Malam 🌙"
   }
   return res
 }
