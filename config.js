@@ -32,7 +32,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 const readMore = more.repeat(4001)
 
 /*============= MAIN INFO =============*/
-global.owner = [['6282277117130', 'xyzarco', true]]
+global.owner = [['', 'xyzarco', true]]
 global.mods = []
 global.prems = []
 global.nomorbot = '628'
